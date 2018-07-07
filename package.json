@@ -1,0 +1,15 @@
+{
+  "name": "ncoda-convert",
+  "main": "./lib/ncoda-convert",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/ncoda-convert",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

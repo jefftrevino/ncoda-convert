@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ncoda-convert",
+        "command": "ncoda-convert:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ncoda-convert",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ncoda-convert:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
