@@ -11,16 +11,16 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "consumedServices": {
-    "default-script-runtime": {
+    "provide-blank-runtime": {
     "description": "Provides a Script Runtime instance that's intended to be more programatically configurable",
     "versions": {
-      "^0.1.0": "consumeDefaultRuntime"
+      "^0.1.0": "consumeBlankRuntime"
       }
     }
   },
   "activationCommands": {
     "atom-workspace": "ncoda-convert:toggle",
-  "atom-workspace": "ncoda-convert:runDefault"
+  "atom-workspace": "ncoda-convert:runBlank"
 },
   "dependencies": {
     "atom-package-deps": "^4.6.2"
