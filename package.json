@@ -18,10 +18,14 @@
       }
     }
   },
+  "activationCommands": {
+    "atom-workspace": "ncoda-convert:toggle",
+  "atom-workspace": "ncoda-convert:runDefault"
+},
   "dependencies": {
     "atom-package-deps": "^4.6.2"
   },
   "package-deps": [
-    "ncoda-script-consumable"
+    "script"
   ]
 }

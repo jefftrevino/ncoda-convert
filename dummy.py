@@ -1,1 +1,3 @@
-print("whee")
+print('whee')
+print('doo')
+print('lee')
