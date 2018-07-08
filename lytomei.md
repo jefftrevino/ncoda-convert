@@ -6,6 +6,8 @@ sequenceDiagram
   participant lychee.converters
 
   user->>atom: calls activation function on current text editor (.ly)
+  ncodaconvert->>script: calls script's activation function to consume services
+  script->>ncodaconvert: returns instance of script runtime
   atom->>ncodaconvert: passes reference to .ly file
   ncodaconvert->>script: calls lychee conversion .py script on .ly file
   script->>lychee.converters: passes .ly to Python environment for conversion
