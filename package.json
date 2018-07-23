@@ -15,7 +15,9 @@
     "description": "convert between ly and mei formats",
     "versions": {
       "0.1.0": "provideConverter"
-    },
+      }
+    }
+  },
   "activationCommands": {
     "atom-workspace": "ncoda-convert:lyToMei"
 },
