@@ -28,7 +28,6 @@
     "temp-write":"^3.4.0"
   },
   "package-deps": [
-    "script",
     "atom-fix-path"
   ]
 }
