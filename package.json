@@ -20,7 +20,8 @@
   },
   "activationCommands": {
     "atom-workspace": "ncoda-convert:toggle",
-  "atom-workspace": "ncoda-convert:runBlank"
+    "atom-workspace": "ncoda-convert:runBlank",
+    "atom-workspace": "ncoda-convert:runChild"
 },
   "dependencies": {
     "atom-package-deps": "^4.6.2"
