@@ -24,7 +24,8 @@
     "atom-workspace": "ncoda-convert:lyToMei"
 },
   "dependencies": {
-    "atom-package-deps": "^4.6.2"
+    "atom-package-deps": "^4.6.2",
+    "temp-write":"^3.4.0"
   },
   "package-deps": [
     "script",
