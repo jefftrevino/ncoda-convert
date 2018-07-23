@@ -1,27 +1,26 @@
 {
   "name": "ncoda-convert",
   "main": "./lib/ncoda-convert",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/jefftrevino/ncoda-convert",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "providedServices": {
-  "ncoda-converter": {
-    "description": "convert between ly and mei formats",
-    "versions": {
-      "0.1.0": "provideConverter"
+    "ncoda-converter": {
+      "description": "convert between ly and mei formats",
+      "versions": {
+        "0.1.0": "provideConverter"
       }
     }
   },
   "activationCommands": {
     "atom-workspace": "ncoda-convert:lyToMei"
-},
+  },
   "dependencies": {
-    "temp-write":"^3.4.0"
+    "temp-write": "^3.4.0"
   }
 }
