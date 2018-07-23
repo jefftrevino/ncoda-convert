@@ -1,7 +1,7 @@
 {
   "name": "ncoda-convert",
   "main": "./lib/ncoda-convert",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
   "keywords": [
   ],
@@ -10,24 +10,16 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "consumedServices": {
-    "provide-blank-runtime": {
-    "description": "Provides a Script Runtime instance that's intended to be more programatically configurable",
+  "providedServices": {
+  "ncoda-converter": {
+    "description": "convert between ly and mei formats",
     "versions": {
-      "^0.1.0": "consumeBlankRuntime"
-      }
-    }
-  },
+      "0.1.0": "provideConverter"
+    },
   "activationCommands": {
-    "atom-workspace": "ncoda-convert:toggle",
-    "atom-workspace": "ncoda-convert:runBlank",
     "atom-workspace": "ncoda-convert:lyToMei"
 },
   "dependencies": {
-    "atom-package-deps": "^4.6.2",
     "temp-write":"^3.4.0"
-  },
-  "package-deps": [
-    "atom-fix-path"
-  ]
+  }
 }
