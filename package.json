@@ -1,7 +1,7 @@
 {
   "name": "ncoda-convert",
   "main": "./lib/ncoda-convert",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "consumable music format conversion",
   "keywords": [],
   "repository": "https://github.com/jefftrevino/ncoda-convert",
