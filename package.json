@@ -27,6 +27,7 @@
     "atom-package-deps": "^4.6.2"
   },
   "package-deps": [
-    "script"
+    "script",
+    "atom-fix-path"
   ]
 }
